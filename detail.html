@@ -24,6 +24,11 @@
         </div>
     </section>
     <section>
+        <div class="container banner-01">
+            <img src="image/banner-02.png" class="img-fluid" alt="Responsive image" />
+        </div>
+    </section>
+    <section>
         <div class="container">
             <div class="list row banner-home">
                 <div class="col">
@@ -192,34 +197,7 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script>
-        window.onload = function () { randomParner(), randomResort(), randomHouse() };
 
-        function randomParner() {
-            var random = Math.floor((Math.random() * 100) + 100);
-            document.getElementById("randomParner").innerHTML = random;
-            console.log(random)
-            var x = setInterval(function () {
-                document.getElementById("randomParner").innerHTML = random++;
-            }, 30000)
-        }
-
-        function randomResort() {
-            var random = Math.floor((Math.random() * 100) + 30);
-            document.getElementById("randomResort").innerHTML = random;
-            var y = setInterval(function () {
-                document.getElementById("randomResort").innerHTML = random++;
-            }, 30000)
-        }
-
-        function randomHouse() {
-            var random = Math.floor((Math.random() * 1000) + 1000);
-            document.getElementById("randomHouse").innerHTML = random;
-            var y = setInterval(function () {
-                document.getElementById("randomHouse").innerHTML = random++;
-            }, 30000)
-        }
-    </script>
 </body>
 
 </html>

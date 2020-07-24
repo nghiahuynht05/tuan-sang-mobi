@@ -32,7 +32,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,DINH-TRAN,
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
@@ -43,15 +43,10 @@
   box-sizing: border-box;
 }
 html {
-  font-family: DINH-TRAN;
+  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-}
-
-@font-face {
-  font-family: DINH-TRAN;
-  src: url(/font/UTM-DINH-TRAN.ttf);
 }
 article,
 aside,
@@ -67,7 +62,9 @@ section {
 }
 body {
   margin: 0;
-  font-family: DINH-TRAN;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -75,6 +72,14 @@ body {
   text-align: left;
   background-color: #fff;
 }
+
+@font-face {
+  font-family: "utm-dinh-tran";
+  src: url(UVNDinhHon.TTF) format("woff"),
+      url("https://candyfonts.com/wp-data/2018/10/26/11297/UTM Dinh Tran.ttf") format("opentype"),
+      url("https://candyfonts.com/wp-data/2018/10/26/11297/UTM Dinh Tran.ttf") format("truetype");
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -9548,6 +9553,15 @@ a.text-dark:hover {
 }
 .banner-home {
   padding: 10px;
+}
+.banner-fonts {
+  font-family: "utm-dinh-tran";
+  text-transform:none;
+  color:#000000;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
 }
 .img-fluid-header {
   max-height: 50%;
