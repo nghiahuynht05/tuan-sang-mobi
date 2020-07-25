@@ -9598,4 +9598,8 @@ a.text-dark:hover {
   padding: 20px;
 }
 
+.img-fluid-info{
+  max-height: 500px;
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
