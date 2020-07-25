@@ -66,8 +66,14 @@
                     <p id="contentReason03"></p>
                     <p id="contentReason04"></p>
                 </div>
+                <div class="w-100"></div>
+                <div class="col detail-font">
+                    <h4 id="procedure"></h4>
+                    <p id="contentProcedure01"></p>
+                    <p id="contentProcedure02"></p>
+                    <p id="contentProcedure03"></p>
+                </div>
             </div>
-
         </div>
     </section>
     <footer>
@@ -95,11 +101,12 @@
                 url: "../data.json",
                 dataType: "json",
                 success: function (data) {
-                    $(data.refrigerators).each(function (key, value) {
+                    $(data[0].refrigerators).each(function (key, value) {
                         var info = (value.why)
                         var tip = (value.tip)
                         var contentWhy = (value.contentWhy)
                         var reason = (value.reason)
+                        var procedure = (value.procedure)
                         var contentTip01 = (value.contentTip[0])
                         var contentTip02 = (value.contentTip[1])
                         var contentTip03 = (value.contentTip[2])
@@ -108,10 +115,14 @@
                         var contentReason02 = (value.contentReason[1])
                         var contentReason03 = (value.contentReason[2])
                         var contentReason04 = (value.contentReason[3])
+                        var contentProcedure01 = (value.contentProcedure[0])
+                        var contentProcedure02 = (value.contentProcedure[1])
+                        var contentProcedure03 = (value.contentProcedure[2])
                         $("#why").append(info)
                         $("#tip").append(tip)
                         $("#contentWhy").append(contentWhy)
                         $("#reason").append(reason)
+                        $("#procedure").append(procedure)
                         $("#contentTip01").append(contentTip01)
                         $("#contentTip02").append(contentTip02)
                         $("#contentTip03").append(contentTip03)
@@ -120,6 +131,9 @@
                         $("#contentReason02").append(contentReason02)
                         $("#contentReason03").append(contentReason03)
                         $("#contentReason04").append(contentReason04)
+                        $("#contentProcedure01").append(contentProcedure01)
+                        $("#contentProcedure02").append(contentProcedure02)
+                        $("#contentProcedure03").append(contentProcedure03)
                     })
                 }
             });

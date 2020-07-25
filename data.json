@@ -1,24 +1,120 @@
-{
+[
+  {
     "refrigerators": [
-        {
-            "why": "Sửa tủ lạnh tại Đà Nẵng nên áp dụng cho ai? ",
-            "contentWhy": "Chúng tôi phục vụ cho mọi đối tượng khách hàng 24/7, bất kể bạn liên hệ vào lúc nào cũng đều được hỗ trợ ngay tức thì. Riêng quận Ngũ Hành Sơn, rất gần với cơ sở của công ty, chỉ trong vòng 30 phút đồng hồ, đội ngũ nhân viên đã có mặt và thực hiện công việc của mình. Bảo dưỡng tủ lạnh là công việc nên làm thường xuyên và định kỳ. Nếu gia đình bạn dùng nhiều thì 6 tháng nên bảo dưỡng tủ lạnh 1 lần, bởi nó không chỉ giúp tăng tuổi thọ cho tủ lạnh mà còn đảm bảo được sự an toàn trong sử dụng cho các thành viên trong gia đình. Gọi ngay chúng tôi chỉ 30 phút có thợ tới.",
-            "tip": "Dấu Hiệu Cần Bảo Dưỡng Tủ Lạnh Ngay Lập Tức",
-            "contentTip": [
-                "Tủ lạnh lâu ngày không sử dụng, bây giờ có nhu cầu sử dụng lại.",
-                "Tủ lạnh hoạt động liên tục trong thời gian dài, và luôn trong tình trạng quá tải",
-                "Bình đóng tuyết, làm lạnh kém",
-                "Máy chạy không êm mà có tiếng ồn lớn khó chịu.",
-                "Công tắc điều khiển tủ lạnh bị hỏng."
-            ],
-            "reason": "5 Lý Do Khiến 8/10 Khách Hàng Gọi Bảo Dưỡng Tủ Lạnh Tại Đây",
-            "contentReason": [
-                "Thợ sửa tủ lạnh sẽ có mặt tại nhà bạn ngay sau gọi điện khoảng 30 – 1h để tiến hành kiểm tra và bảo dưỡng tủ lạnh của bạn",
-                "Bảo dưỡng từ A – Z cho chiếtủ lạnh, CAM KẾT 100% không làm giả dối bịp mắt khách hàng.",
-                "Sử dụng dịch vụ bảo dưỡng tủ lạnh tại nhà, khách hàng chỉ phải thanh toán tiền khi thợ đã hoàn thành và hoạt động lại bình thường.",
-                "Luôn đặt an toàn và trách nhiệm lên hàng đầu trong qua trình bảo dưỡng.",
-                "Là đơn vị cung cấp dịch vụ bảo dưỡng tủ lạnh tại Đà Nẵng với mức giá rẻ nhất trên thị trường cho khách hàng, đặc biệt cam kết chất lượng tốt 100%. Đội thợ bảo dưỡng tủ lạnh tốt nhất tại Đà Nẵng"
-            ]
-        }
+      {
+        "why": "Sửa tủ lạnh tại Đà Nẵng nên áp dụng cho ai? ",
+        "contentWhy": "Chúng tôi phục vụ cho mọi đối tượng khách hàng 24/7, bất kể bạn liên hệ vào lúc nào cũng đều được hỗ trợ ngay tức thì. Riêng quận Ngũ Hành Sơn, rất gần với cơ sở của công ty, chỉ trong vòng 30 phút đồng hồ, đội ngũ nhân viên đã có mặt và thực hiện công việc của mình. Bảo dưỡng tủ lạnh là công việc nên làm thường xuyên và định kỳ. Nếu gia đình bạn dùng nhiều thì 6 tháng nên bảo dưỡng tủ lạnh 1 lần, bởi nó không chỉ giúp tăng tuổi thọ cho tủ lạnh mà còn đảm bảo được sự an toàn trong sử dụng cho các thành viên trong gia đình. Gọi ngay chúng tôi chỉ 30 phút có thợ tới.",
+        "tip": "Dấu Hiệu Cần Bảo Dưỡng Tủ Lạnh Ngay Lập Tức",
+        "contentTip": [
+          "Tủ lạnh lâu ngày không sử dụng, bây giờ có nhu cầu sử dụng lại.",
+          "Tủ lạnh hoạt động liên tục trong thời gian dài, và luôn trong tình trạng quá tải",
+          "Bình đóng tuyết, làm lạnh kém",
+          "Máy chạy không êm mà có tiếng ồn lớn khó chịu.",
+          "Công tắc điều khiển tủ lạnh bị hỏng."
+        ],
+        "reason": "5 Lý Do Khiến 8/10 Khách Hàng Gọi Bảo Dưỡng Tủ Lạnh Tại Đây",
+        "contentReason": [
+          "Thợ sửa tủ lạnh sẽ có mặt tại nhà bạn ngay sau gọi điện khoảng 30 – 1h để tiến hành kiểm tra và bảo dưỡng tủ lạnh của bạn",
+          "Bảo dưỡng từ A – Z cho tủ lạnh, CAM KẾT 100% không làm giả dối bịt mắt khách hàng.",
+          "Sử dụng dịch vụ bảo dưỡng tủ lạnh tại nhà, khách hàng chỉ phải thanh toán tiền khi thợ đã hoàn thành và hoạt động lại bình thường.",
+          "Luôn đặt an toàn và trách nhiệm lên hàng đầu trong quy trình bảo dưỡng.",
+          "Là đơn vị cung cấp dịch vụ bảo dưỡng tủ lạnh tại Đà Nẵng với mức giá rẻ nhất trên thị trường cho khách hàng, đặc biệt cam kết chất lượng tốt 100%. Đội thợ bảo dưỡng tủ lạnh tốt nhất tại Đà Nẵng"
+        ],
+        "procedure": "Quy trình bảo dưỡng tủ lạnh",
+        "contentProcedure": [
+          "1. Vệ sinh sạch bụi và màng nhện bám vào tủ lạnh: Đầu tiên là block và các vị trí gần block tủ lạnh Kiểm tra đường dây điện tủ lạnh có bị đứt không do chuột, gián.. cắn.",
+          "2. Kiểm tra xem dàn nóng, dàn lạnh có bị gỉ không, bằng cách lấy bọt xà phòng bôi lên vị trí cần dò. Sau đó quan sát xem vị trí đó có sủi bọt không? Báo cho trung tâm sửa tủ lạnh tại Đà Nẵng tới để khắc phục.",
+          "3. Kiểm tra ga tủ lạnh Nếu tủ lạnh bị hao ga trong quá trình sử dụng sẽ làm giảm khả năng làm lạnh."
+        ]
+      }
     ]
-}
+  },
+  {
+    "airConditioners": [
+      {
+        "why": "",
+        "contentWhy": "Sửa điều hòa tại Đà Nẵng chuyên nghiệp, uy tín. Nơi đây đã trở thành địa chỉ tin cậy khi quý khách hàng có nhu cầu lắp đặt, bảo dưỡng hay sửa chữa điều hòa.",
+        "tip": "Công ty dịch vụ sửa chữa điều hòa TUẤN SÁNG chúng tôi có gì?",
+        "contentTip": [
+          "Đội ngũ kỹ thuật viên chuyên nghiệp, được đào tạo cả về chuyên môn lẫn đạo đức nghề nghiệp. Không để tình trạng chặt chém khi làm việc tại nhà quý khách hàng.",
+          "Cơ sở vật chất được công ty đầu tư hiện đại, sẵn sàng đáp ứng tốt nhất mọi yêu cầu thực tế sửa chữa đưa ra.",
+          "Phục vụ nhanh nhất tại tất cả các địa điểm tại Tp. Đà Nẵng."
+        ],
+        "reason": "Chúng tôi sẵn sàng đảm nhận mọi yêu cầu sửa chữa quý khách hàng đề ra:",
+        "contentReason": [
+          "Lắp đặt điều hòa: Tư vấn thiết kế, lắp đặt hệ thống điều hòa cho gia đình, doanh nghiệp. Đặc biệt chúng tôi nhận thi công hệ thống điều hòa trung tâm cho các tòa nhà, phân xưởng lớn",
+          "Tháo lắp điều hòa: Quý khách có nhu cầu tháo lắp điều hòa, hãy gọi ngay cho chúng tôi sẽ có thợ đến thực hiện công việc cho quý khách, thời gian phục vụ nhanh nhất chỉ từ 15-30 phút.",
+          "Bảo dưỡng điều hòa trọn gói: Có nhu cầu bảo dưỡng điều hòa quý khách có thể chọn một trong hai gói bảo dưỡng.",
+          "Sửa chữa điều hòa tại nhà: Dịch vụ sửa điều hòa tại nhà chuyên cung cấp linh kiện điều hòa chính hãng, bảo hành dài hạn. Thợ kỹ thuật điều hòa chuyên nghiệp, chuẩn đoán đúng bệnh, chi phí hợp lý nhất cho quý khách hàng"
+        ],
+        "procedure": "",
+        "contentProcedure": [
+          "Với công nghệ sửa các loại điều hòa công nghệ cao, chúng tôi tự hào là một công ty dịch vụ sửa chữa hiện đại bậc nhất tại Đà Nẵng, sửa nhanh, hiệu quả mọi nhu cầu khách hàng, sửa tại chỗ, có bảo hành dài hạn, linh kiện chính hãng đảm bảo 100% chất lượng, đội ngũ thợ và thiết bị kiểm tra hiện đại chỉ có tại công ty.",
+          "Sửa chữa, bảo dưỡng, lắp đặt điều hòa giá cạnh tranh. Ở đâu rẻ, chúng tôi rẻ hơn, chất lượng hơn.",
+          "Chúng tôi luôn trau dồi, tìm tòi cách xử lý khắc phục mọi sự cố nhanh nhất, hiệu quả nhất. Đội ngũ kỹ thuật viên lành nghề, chuyên nghiệp và nhiệt tình.",
+          "Dịch vụ sửa điều hòa nhanh nhất Đà Nẵng!",
+          "Chuyên sửa chữa, lắp đặt, bảo dưỡng điều hòa tại nhà và cơ quan bảo đảm thợ giỏi, sửa tại nhà (không mang máy về).",
+          "Để tìm ra các giải pháp kỹ thuật mới nhất và đem lại hiệu quả cao nhất cho khách hàng, chúng tôi không ngừng đầu tư nghiên cứu và phát triển, đưa ra kế hoạch hàng năm theo định hướng “Hội nhập quốc tế”."
+        ]
+      }
+    ]
+  },
+  {
+    "washMachines": [
+      {
+        "why": "",
+        "contentWhy": "",
+        "tip": "",
+        "contentTip": [
+          "Chúng tôi tự hào là một trong những đơn vị đi đầu trong lĩnh vực cung cấp các dịch vụ sửa chữa máy giặt, bảo dưỡng máy giặt TUẤN SÁNG ĐÀ NẴNG với nhiều thế mạnh.",
+          "Với đội ngũ nhân viên, kỹ thuật viên có tay nghề giỏi, nhiều kinh nghiệm lắp đặt và sửa chữa, bảo dưỡng các thiết bị điện lạnh của các hãng nổi tiếng hiện nay trên thị trường. Quý khách hàng có thể hoàn toàn yên tâm khi gọi tới số điện thoại Hotline:0905 767 008 của chúng tôi.",
+          "Ngay khi nhận được liên hệ từ Quý khách hàng, nhân viên kỹ thuật chúng tôi sẽ liên hệ lại để tư vấn hoặc tới khảo sát tại địa chỉ của Quý khách hàng. Sau khi khảo sát chúng tôi sẽ cung cấp báo giá sơ bộ về chi phí phát sinh tới Quý khách hàng.",
+          "Máy giặt sử dụng lâu ngày thường hay bị bám bụi bẩn ở các túi lọc, một số vật dụng bằng kim loại trong túi quần áo như tiền đồng, cúc áo, ốc … thường hay bị rơi ra và mắc lại ở trong lồng máy giặt làm ảnh hưởng đến quá trình vắt, lâu ngày dẫn đến hư hỏng ở máy giặt.",
+          "Khi sử dùng máy giặt định kỳ từ 6 tháng đến 1 năm quý khách nên bảo dưỡng máy giặt một lần. Quý khách có thể tự vệ sinh đơn giản bằng tay theo hướng dẫn của chúng tôi hoặc gọi điện Chúng tôi sẽ cho nhân viên đến tận nơi để bảo trì cho quý khách vệ sinh máy giặt."
+        ],
+        "reason": "Quy trình bảo dưỡng máy giặt của Dịch vụ sửa chữa 24h tại Đà Nẵng:",
+        "contentReason": [
+          "Tháo từng bộ phận của máy giặt.",
+          "Phun chất tẩy rửa và làm sạch các bộ phận.",
+          "Tra dầu mỡ vào vòng bi để hoạt động trơn tru.",
+          "Căn chỉnh dây cu loa để hoạt động tốt.",
+          "Lắp các bộ phận của máy lại hoàn chỉnh.",
+          "Đánh thêm lớp garal để máy được bóng như mới.",
+          "Cuối cùng bàn giao máy giặt được bảo dưỡng cho khách hàng."
+        ],
+        "procedure": "",
+        "contentProcedure": [
+          "Khi được sự đồng ý của Quý khách hàng về kế hoạch làm việc và giá cả chúng tôi sẽ tiến hành làm theo đúng tiến độ và chất lượng như đã cam kết."
+        ]
+      }
+    ]
+  },
+  {
+    "cleaning": [
+      {
+        "why": "",
+        "contentWhy": "",
+        "tip": "",
+        "contentTip": [
+          "Thông tắc cống là dịch vụ chủ đạo. Dịch vụ nhằm đáp ứng mọi yêu cầu của khách hàng về sự cố đường ống. Kỹ thuật viên có đầy đủ các trang thiết bị để xử lý đường ống trong nhà bạn trong bất kỳ trường hợp nào.",
+          "Đối với đường ống bồn cầu thì nhân viên thông tắc cống có thể dễ dàng sử lý dựa vào những thiết bị cũng như kinh nghiệm thông tắc của mình. Ngoài ra, những thiết bị được sử dụng là giống nhau. Từ các thiết bị như máy nén khí, máy lò xo, các hóa chất được sử dụng bởi thợ thông cống.",
+          "Tất cả các vấn đề như: cống, thoát sàn,  chậu rửa, nhà vệ sinh … đều được xử lý nhanh chóng.",
+          "Đội kỹ thuật thông tắc cống và bồn cầu đều phối hợp với nhau và triển khai cùng 1 chi nhánh. Vậy nên, sẽ chẳng lạ gì nếu nhân viên có mặt tại nhà bạn chỉ sau 15 phút liên hệ.",
+          "Dịch vụ thông tắc cống dành riêng chi từng chi nhánh và các quận huyện ĐÀ NẴNG"
+        ],
+        "reason": "Thông tắc nhà vệ sinh giá rẻ",
+        "contentReason": [
+          "Thông tắc bồn cầu giá rẻ là dịch vụ thuộc nhà vệ sinh mà công ty cung cấp. Trong đó, thông thoát sàn, chậu rửa mặt triển khai song song cùng bồn cầu.",
+          "Tất cả khách khi dùng dịch vụ đều hưởng những ưu đãi như nhau. Bạn bị tắc hãy liên hệ tới hotline của công ty.",
+          "Liên hệ ngay để thông đường ống, nhà vệ sinh khi bị tắc. Có mặt tại nhà bạn chỉ 15 phút liên hệ."
+        ],
+        "procedure": "Hút bể phốt",
+        "contentProcedure": [
+          "Trong trường hợp bạn đi vệ sinh bị tắc. Tuy nhiên, cứ thông xong lần sau đi vệ sinh lại tắc. Tôi cá là 90% vấn đề là do bể phốt của bạn bị đầy hoặc đường thoát khí của bể phốt đang tắc. Khi đó, bạn chỉ còn cách đó là hút bể phốt để xử lý triệt để.",
+          "Những chiếc xe hút bể phốt tuyệt nhất Đà Nẵng và cũng hiện đại nhất Đà Nẵng. Hút sạch sẽ trong bất cứ hoàn cảnh nào. Triển khai những chiếc xe nhỏ để phục vụ trong các hẻm nhỏ ở Đà Nẵng. Hút sạch, không dây bẩn ra nhà giúp môi trường khi hút sạch và không có mùi hôi.",
+          "Dịch vụ hút bể phốt đưa ra cũng nhằm mục đích xử lý triệt để vấn đề tắc bồn cầu."
+        ]
+      }
+    ]
+  }
+]

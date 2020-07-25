@@ -76,8 +76,10 @@ body {
 @font-face {
   font-family: "utm-dinh-tran";
   src: url(UVNDinhHon.TTF) format("woff"),
-      url("https://candyfonts.com/wp-data/2018/10/26/11297/UTM Dinh Tran.ttf") format("opentype"),
-      url("https://candyfonts.com/wp-data/2018/10/26/11297/UTM Dinh Tran.ttf") format("truetype");
+    url("https://candyfonts.com/wp-data/2018/10/26/11297/UTM Dinh Tran.ttf")
+      format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11297/UTM Dinh Tran.ttf")
+      format("truetype");
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9556,8 +9558,8 @@ a.text-dark:hover {
 }
 .banner-fonts {
   font-family: "utm-dinh-tran";
-  text-transform:none;
-  color:#000000;
+  text-transform: none;
+  color: #000000;
   font-weight: bold;
   margin-top: 0;
   font-size: 1.5rem;
@@ -9572,7 +9574,7 @@ a.text-dark:hover {
   padding: 20px 0px 20px 10px;
 }
 
-.button-banner{
+.button-banner {
   background-color: var(--blue);
   color: white;
 }
@@ -9591,15 +9593,60 @@ a.text-dark:hover {
   height: 150px;
 }
 
-.detail-font{
+.detail-font {
   text-align: left;
 }
-.detail-blog{
+.detail-blog {
   padding: 20px;
 }
 
-.img-fluid-info{
+.img-fluid-info {
   max-height: 500px;
+  max-width: 70%;
+}
+.container-display {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
+.display-item {
+  height: 100px;
+}
+
+.display-item-number {
+  height: 50px;
+}
+
+.back-to-top {
+  position: fixed;
+  top: auto;
+  left: auto;
+  right: 15px;
+  bottom: 15px;
+  font-size: 40px;
+  opacity: 0.8;
+  z-index: 9999;
+  cursor: pointer;
+}
+.back-to-right {
+  position: fixed;
+  top: auto;
+  left: auto;
+  left: 15px;
+  bottom: 15px;
+  margin-left: 10px;
+  font-size: 40px;
+  opacity: 0.8;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+
+.back-to-top:hover {
+  opacity: 1;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */

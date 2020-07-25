@@ -46,16 +46,35 @@
             </div>
             <div class="row banner-home">
                 <div class="col detail-font">
-                    <h4>VÌ SAO CẦU CỐNG BỊ TẮC</h4>
-                    <p>Điện Lạnh Tuấn Sáng - Xứng Đáng Đồng Tiền</p>
+                    <h4 id="why"></h4>
+                    <p id="contentWhy">
+                    </p>
                 </div>
                 <div class="w-100"></div>
                 <div class="col detail-font">
-                    <h4>CÁCH XỬ LÝ</h4>
-                    <p>Điện Lạnh Tuấn Sáng - Xứng Đáng Đồng Tiền</p>
+                    <h4 id="tip"></h4>
+                    <p id="contentTip01"></p>
+                    <p id="contentTip02"></p>
+                    <p id="contentTip03"></p>
+                    <p id="contentTip04"></p>
+                    <p id="contentTip05"></p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col detail-font">
+                    <h4 id="reason"></h4>
+                    <p id="contentReason01"></p>
+                    <p id="contentReason02"></p>
+                    <p id="contentReason03"></p>
+                    <p id="contentReason04"></p>
+                    <p id="contentReason05"></p>
+                    <p id="contentReason06"></p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col detail-font">
+                    <h4 id="procedure"></h4>
+                    <p id="contentProcedure01"></p>
                 </div>
             </div>
-
         </div>
     </section>
     <footer>
@@ -63,7 +82,7 @@
             <div class="row item-banner">
                 <div class="col-sm">
 
-                    <img src="../image/footer.png" class="img-fluid" alt="Responsive image" />
+                    <img src="../image/footer.jpg" class="img-fluid" alt="Responsive image" />
                 </div>
             </div>
     </footer>
@@ -76,7 +95,50 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
-
+    <script src="../jquery/jquery-3.5.1.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery.ajax({
+                url: "../data.json",
+                dataType: "json",
+                success: function (data) {
+                    $(data[2].washMachines).each(function (key, value) {
+                        var info = (value.why)
+                        var tip = (value.tip)
+                        var contentWhy = (value.contentWhy)
+                        var reason = (value.reason)
+                        var contentTip01 = (value.contentTip[0])
+                        var contentTip02 = (value.contentTip[1])
+                        var contentTip03 = (value.contentTip[2])
+                        var contentTip04 = (value.contentTip[3])
+                        var contentTip05 = (value.contentTip[4])
+                        var contentReason01 = (value.contentReason[0])
+                        var contentReason02 = (value.contentReason[1])
+                        var contentReason03 = (value.contentReason[2])
+                        var contentReason04 = (value.contentReason[3])
+                        var contentReason05 = (value.contentReason[4])
+                        var contentReason06 = (value.contentReason[5])
+                        var contentProcedure = (value.contentProcedure[0])
+                        // $("#why").append(info)
+                        $("#tip").append(tip)
+                        // $("#contentWhy").append(contentWhy)
+                        $("#reason").append(reason)
+                        $("#contentTip01").append(contentTip01)
+                        $("#contentTip02").append(contentTip02)
+                        $("#contentTip03").append(contentTip03)
+                        $("#contentTip04").append(contentTip04)
+                        $("#contentReason01").append(contentReason01)
+                        $("#contentReason02").append(contentReason02)
+                        $("#contentReason03").append(contentReason03)
+                        $("#contentReason04").append(contentReason04)
+                        $("#contentReason05").append(contentReason05)
+                        $("#contentReason06").append(contentReason06)
+                        $("#contentProcedure01").append(contentProcedure)
+                    })
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
