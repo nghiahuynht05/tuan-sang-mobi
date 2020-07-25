@@ -9590,4 +9590,12 @@ a.text-dark:hover {
   max-width: 100%;
   height: 150px;
 }
+
+.detail-font{
+  text-align: left;
+}
+.detail-blog{
+  padding: 20px;
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
