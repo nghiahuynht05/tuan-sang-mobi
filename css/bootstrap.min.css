@@ -9524,6 +9524,20 @@ a.text-dark:hover {
   padding: 10px;
 }
 
+.list .item-nav {
+  border-right: 1px solid #000;
+  text-align: -webkit-center;
+}
+
+.list .item-nav:last-child {
+  border-right: none;
+}
+
+.row-cols-3-customzed > * {
+  flex: 0 0 33%;
+  padding: 10px;
+}
+
 .icon-banner {
   padding-bottom: 50px;
 }
@@ -9617,6 +9631,10 @@ a.text-dark:hover {
   height: 100px;
 }
 
+.display-item-nav {
+  max-width: 540px;
+  width: auto;
+}
 .display-item-number {
   height: 50px;
 }
@@ -9645,8 +9663,17 @@ a.text-dark:hover {
   cursor: pointer;
 }
 
-
 .back-to-top:hover {
   opacity: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.style-a {
+  color: #000;
+  text-align: center;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */

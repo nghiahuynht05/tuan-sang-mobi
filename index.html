@@ -26,6 +26,34 @@
         </div>
     </section>
     <section>
+        <div class="container" id="fix-menu-info" style="z-index: 1;">
+            <div style="background-color: white;">
+                <div id="mobiDevice" class="row row-col-4">
+                    <div class="col display-item-nav">
+                        <a class="navbar-brand style-a" href="./cleaning/detail.html">
+                            <h5>THÔNG TẮC CẦU CỐNG</h5>
+                        </a>
+                    </div>
+                    <div class="col display-item-nav">
+                        <a class="navbar-brand style-a" href="airConditioners/detail.html">
+                            <h5>SỬA ĐIỀU HÒA</h5>
+                        </a>
+                    </div>
+                    <div class="col display-item-nav">
+                        <a class="navbar-brand style-a" href="./washingMachines/detail.html">
+                            <h5>SỬA MÁY GIẶT</h5>
+                        </a>
+                    </div>
+                    <div class="col display-item-nav">
+                        <a class="navbar-brand style-a" href="./refrigerators/detail.html">
+                            <h5>SỬA TỦ LẠNH</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
         <div class="container">
             <div class="list row banner-home">
                 <div class="col">
@@ -256,6 +284,39 @@
             var y = setInterval(function () {
                 document.getElementById("randomHouse").innerHTML = random++;
             }, 30000)
+        }
+    </script>
+    <script>
+        function mobileCheck() {
+            if (navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)) {
+                document.getElementById("mobiDevice").setAttribute("class", "row row-cols-5 container-display")
+            }
+        }
+        mobileCheck()
+    </script>
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("fix-menu-info");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
         }
     </script>
 </body>
