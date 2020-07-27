@@ -9,6 +9,7 @@
     <title>CTy Tuấn Sáng</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
     </section>
     <section>
         <div class="container" id="fix-menu-info" style="z-index: 1;">
-            <div style="background-color: white;">
+            <div style="background-color: white;" id="nav-list-desktop">
                 <div id="mobiDevice" class="row row-col-4">
                     <div class="col display-item-nav">
                         <a class="navbar-brand style-a" href="./cleaning/detail.html">
@@ -35,7 +36,7 @@
                         </a>
                     </div>
                     <div class="col display-item-nav">
-                        <a class="navbar-brand style-a" href="airConditioners/detail.html">
+                        <a class="navbar-brand style-a" href="./airConditioners/detail.html">
                             <h5>SỬA ĐIỀU HÒA</h5>
                         </a>
                     </div>
@@ -51,6 +52,21 @@
                     </div>
                 </div>
             </div>
+            <div style="background-color: black;" id="nav-list-mobi">
+                <div class="topnav">
+                    <a href="./index.html" class="active">Cty Tuấn Sáng</a>
+                    <div id="myLinks">
+                        <a href="./cleaning/detail.html">THÔNG TẮC CẦU CỐNG</a>
+                        <a href="./washingMachines/detail.html">SỬA ĐIỀU HÒA</a>
+                        <a href="./washingMachines/detail.html">SỬA MÁY GIẶT</a>
+                        <a href="./refrigerators/detail.html">SỬA TỦ LẠNH</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="menuFun()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <section>
@@ -264,7 +280,6 @@
         function randomParner() {
             var random = Math.floor((Math.random() * 100) + 100);
             document.getElementById("randomParner").innerHTML = random;
-            console.log(random)
             var x = setInterval(function () {
                 document.getElementById("randomParner").innerHTML = random++;
             }, 30000)
@@ -296,26 +311,65 @@
                 || navigator.userAgent.match(/BlackBerry/i)
                 || navigator.userAgent.match(/Windows Phone/i)) {
                 document.getElementById("mobiDevice").setAttribute("class", "row row-cols-5 container-display")
+                var des = document.getElementById("nav-list-desktop")
+                des.style.display = "none"
+            } else {
+                var x = document.getElementById("nav-list-mobi");
+                x.style.display = "none";
             }
         }
         mobileCheck()
     </script>
     <script>
+        function checkDevice() {
+            if (navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)) {
+                return true
+            }
+            return false
+        }
         // When the user scrolls the page, execute myFunction
         window.onscroll = function () { myFunction() };
 
         // Get the header
         var header = document.getElementById("fix-menu-info");
+        var headerMobi = document.getElementById("nav-list-mobi");
 
         // Get the offset position of the navbar
         var sticky = header.offsetTop;
+        var stickyMobi = headerMobi.offsetTop;
 
         // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
+            if (checkDevice()) {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                    headerMobi.style.display = "block"
+                } else {
+                    header.classList.remove("sticky");
+                    headerMobi.style.display = "none"
+                }
             } else {
-                header.classList.remove("sticky");
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        }
+    </script>
+    <script>
+        function menuFun() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
             }
         }
     </script>
