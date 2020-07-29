@@ -9670,6 +9670,8 @@ a.text-dark:hover {
 .sticky {
   position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
 }
 
 .style-a {
@@ -9732,4 +9734,27 @@ a.text-dark:hover {
 #nav-list-desktop {
   display: block;
 }
+
+.info-fonts {
+  padding: 10px;
+  text-align: center;
+}
+
+.info-fonts .subject {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman";
+}
+
+.info-fonts-detail {
+  padding: 10px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.mobi-banner {
+  display: block;
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */

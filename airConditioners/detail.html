@@ -22,7 +22,7 @@
     </head>
     <section>
         <div class="container banner-01">
-            <img src="../image/banner-01.png" class="img-fluid" alt="Responsive image" />
+            <img src="../image/banner-01.png" class="img-fluid" id="mobi-banner" alt="Responsive image" />
         </div>
     </section>
     <section>
@@ -118,6 +118,21 @@
         crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../jquery/jquery-3.5.1.js"></script>
+    <script>
+        function mobileCheck() {
+            if (navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)) {
+                var des = document.getElementById("mobi-banner")
+                des.style.display = "none"
+            }
+        }
+        mobileCheck()
+    </script>
     <script>
         jQuery(document).ready(function () {
             jQuery.ajax({
