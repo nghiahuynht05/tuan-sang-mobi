@@ -9508,6 +9508,11 @@ a.text-dark:hover {
 
 .banner-01 {
   padding: 10px;
+  display: none;
+}
+
+.banner-01-index {
+  padding: 10px;
 }
 .list .item {
   border-right: 2px solid #000;
@@ -9754,7 +9759,7 @@ a.text-dark:hover {
   line-height: 1.5;
 }
 .mobi-banner {
-  display: block;
+  display: none;
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
